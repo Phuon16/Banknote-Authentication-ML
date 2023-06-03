@@ -19,14 +19,12 @@ The project dataset was simplified dataset of Bank Note Authentication UCI datas
 ### Definition of K-means:
 >“K-means clustering is a method for grouping n observations into K clusters. It uses vector quantization and aims to assign each observation to the cluster with the nearest mean or centroid, which serves as a prototype for the cluster. Originally developed for signal processing, K-means clustering is now widely used in machine learning to partition data points into K clusters based on their similarity. The goal is to minimize the sum of squared distances between the data points and their corresponding cluster centroids, resulting in clusters that are internally homogeneous and distinct from each other.”
 
-<br>
-The project followed these steps to analyze the dataset:
+<br> The project followed these steps to analyze the dataset:</br>
 1. Data Exploration
-2. Data Processing
-*I removed duplicates and normalized the data for getting better prediction*
+2. Data Processing: *I removed duplicates and normalized the data for getting better prediction*
 3. Modeling: training & predicting using K-means clustering 
 4. Insights from Model
-</br>
+
 
 <br>The following libraries in the project:
 * **Pandas** - used to read and write the csv file
